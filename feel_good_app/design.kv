@@ -1,0 +1,166 @@
+# Sebenarnya tiap elemen di sini adalah python obj di kivy module #
+
+<LoginScreen>:
+    GridLayout:
+        cols: 1
+        padding: 15, 15  # Widget-border space
+        spacing: 25, 25  # Widget-widget space
+        GridLayout:
+            cols: 1
+            Label:
+                text: "User Login"
+                font_size: "20sp"  # space-independent pixel
+            TextInput:
+                id: username
+                hint_text: "User Name"  # Text inside the box
+            TextInput:
+                id: password
+                password: True
+                hint_text: "Password"
+            RelativeLayout:  # Because there is only one widget in the same grid (no effect horizontally)
+                Button:
+                    text: "Login"
+                    on_press: root.log_in(root.ids.username.text, root.ids.password.text)
+                    size_hint: 0.3, 0.5
+                    pos_hint: {"center_x": 0.5, "center_y": 0.6}
+            Label:
+                id: login_wrong
+                text: ""
+        GridLayout:
+            cols: 2
+            size_hint: 0.2, 0.2
+            padding: 10, 10
+            spacing: 10, 0
+            Button:
+                text: "Forgot Your Password?"
+                background_color: 1, 1, 1, 0  # R, G, B, Alpha
+                opacity: 1 if self.state == "normal" else 0.5
+                color: 0.1, 0.7, 1, 1
+                on_press: root.forgot_pass_screen()
+            Button:
+                text: "Sign Up"
+                on_press: root.sign_up()  # Root di sini adalah aliasnya LoginScreen
+                background_color: 1, 1, 1, 0
+                opacity: 1 if self.state == "normal" else 0.5
+                color: 0.1, 0.7, 1, 1
+
+<SignUpScreen>:  # Bukanlah class di kivy module, jadi harus di-declare di python file
+    GridLayout:
+        padding: 20, 20
+        spacing: 25, 25
+        cols: 1
+        Label:
+            text: "Sign up for a good time!"
+            font_size: "20sp"
+        TextInput:
+            id: username
+            hint_text: "Username"
+        TextInput:
+            id: password  # username di sini adalah variable
+            hint_text: "Password"
+        GridLayout:
+            cols: 2
+            Button:
+                text: "Back to login page?"
+                on_press: root.go_to_login2()
+            Button:
+                text: "Have a good time!"
+                on_press: root.add_user(root.ids.username.text, root.ids.password.text)
+
+
+<SignUpSuccessScreen>:
+    GridLayout:
+        padding: 20, 20
+        spacing: 25, 25
+        cols: 1
+        Label:
+            text: "You are ready to have a good time!"
+        RelativeLayout:
+            Button:
+                size_hint: 0.32, 0.2
+                pos_hint: {"center_x": 0.5, "center_y": 0.6}
+                text: "Login page"
+                on_press: root.go_to_login()
+
+<LoginSuccessScreen>:
+    GridLayout:
+        padding: 30, 30
+        spacing: 30, 30
+        cols: 1
+        RelativeLayout:
+            ImageButton:
+                on_press: root.log_out()
+                source: "logout_hover.png" if self.hovered else "logout_nothover.png"
+                size_hint: 0.35, 0.35
+                pos_hint: {"center_x": 0.93, "center_y": 0.8}
+        Label:
+            text: "How do you feel?"
+            font_size: "20sp"
+        TextInput:
+            id: feeling
+            hint_text: "Maybe you are happy? Sad? Or unloved?"
+        Button:
+            text: "Help me feel good senpai!"
+            on_press: root.get_quote(root.ids.feeling.text)
+        ScrollView:
+            Label:
+                id: quote
+                text: ""
+                text_size: self.width, None  # None to not be related with the label
+                size_hint_y: None  # To ignore the size hinting
+                height: self.texture_size[1]
+
+<ForgotPasswordScreen>:
+    GridLayout:
+        padding: 30, 30
+        spacing: 30, 30
+        cols: 1
+        GridLayout:
+            cols: 1
+            TextInput:
+                id: username
+                hint_text: "Please enter your username"
+            Label:
+                id: password
+                text: ""
+        GridLayout:
+            cols: 2
+            Button:
+                background_color: 1, 1, 1, 0  # R, G, B, Alpha
+                opacity: 1 if self.state == "normal" else 0.5
+                color: 0.1, 0.7, 1, 1
+                text: "I forgot my password"
+                on_press: root.forgot_pass(root.ids.username.text)
+            Button:
+                background_color: 1, 1, 1, 0  # R, G, B, Alpha
+                opacity: 1 if self.state == "normal" else 0.5
+                color: 0.1, 0.7, 1, 1
+                text: "Back to login page"
+                on_press: root.go_to_login()
+
+<RootWidget>:
+    LoginScreen:
+        name: "login_screen" # Name for python file reference
+
+    SignUpScreen:
+        name: "sign_up_screen"
+    
+    SignUpSuccessScreen:
+        name: "sign_up_success_screen"
+    
+    LoginSuccessScreen:
+        name: "login_success_screen"
+
+    ForgotPasswordScreen:
+        name: "forgot_password_screen"
+
+# Hierarkinya adalah:
+
+# App (Main App)
+#   Screen Manager (RootWidget)
+#       Screen (LoginScreen)
+#           GridLayout
+#               GridLayout
+#                   text input
+#                   Button
+#       etc.
