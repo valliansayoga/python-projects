@@ -10,7 +10,7 @@ def full_scrapper(link):
     
     The base function to scrape UMich's theses database.
     
-    link: URL used for scrapping from result search for example:
+    link: URL used for scrapping from search result. For example:
         'https://deepblue.lib.umich.edu/browse?rpp=25&offset=0&etal=-1&sort_by=2&type=dateissued&starts_with=2021&order=DESC'
         with url pattern:
             offset = 0
