@@ -161,7 +161,7 @@ def full_scrapper(link):
           
     return d
 
-# Testing on 25 titles on a single page
+## Testing on 25 titles on a single page
 # url = 'https://deepblue.lib.umich.edu/browse?rpp=25&offset=0&etal=-1&sort_by=2&type=dateissued&starts_with=2021&order=DESC'
 # r = requests.get(url)
 # c = r.content
@@ -174,7 +174,7 @@ def full_scrapper(link):
 #     full_path = base_url + element['href']
 #     l.append(full_scrapper(full_path))
 # ---------------------------------------------------------------------------------------------------------------------------------------
-# Scrapping 2000 titles
+## Scrapping 2000 titles
 # l = []
 # loops = 1
 # for offset in range(2025, 25):
