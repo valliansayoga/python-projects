@@ -6,7 +6,7 @@ import sqlite3
 def create_table():
     conn = sqlite3.connect(
         "lite.db"
-    )  # variable of connection. Will make a new one of didnot exist.
+    )  # variable of connection. Will make a new one if did not exist.
 
     cur = conn.cursor()  # cursor object
     cur.execute(
