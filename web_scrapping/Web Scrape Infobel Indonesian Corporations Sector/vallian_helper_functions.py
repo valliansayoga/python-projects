@@ -8,7 +8,7 @@ import requests
 import time
 from dataclasses import dataclass
 from functools import wraps
-from typing import Callable
+from typing import Callable, Optional
 
 logging.basicConfig(
     filename="Log.log",
@@ -46,7 +46,7 @@ it's in {self.sector} sector."""
 
 def generate_soup(
     link: str,
-    headers: dict | None = None,
+    headers: Optional[dict] = None,
 ) -> bs4.BeautifulSoup:
     """
     Generate Soup object from a link.
@@ -101,7 +101,6 @@ def generate_max_page(soup: bs4.BeautifulSoup) -> int:
 def generate_page_links(
     soup: bs4.BeautifulSoup,
     page_link: str,
-    base_link: str = "https://local.infobel.co.id",
 ) -> list:
     """
     Generate page links for each category.
@@ -177,7 +176,12 @@ def save_to_csv(obj: list[dict]) -> None:
 
 
 def scrapping_process(
-    obj: list[dict], *, start_index: int | None = None, headers: dict | None
+    obj: list[dict],
+    *,
+    start_index: Optional[int] = None,
+    headers: Optional[dict],
+    category_sleep: float = 5,
+    page_sleep: float = 1.5,
 ) -> None:
     """
     Process function to scrape data accross pages.
@@ -190,9 +194,13 @@ def scrapping_process(
             first_link = First page of the category
     start_index:
         Index of `obj` to start with.
+
+    Returns
+    -------
+    Extended list of Corporations object.
     """
 
-    for i, category in enumerate(obj[start_index:]):
+    for category in obj[start_index:]:
         try:
             start = time.perf_counter()
 
@@ -208,7 +216,7 @@ def scrapping_process(
             for j, link in enumerate(page_links):
 
                 if j % 10 == 0 and j > 0:
-                    time.sleep(1.5)
+                    time.sleep(page_sleep)
 
                 category["companies"].extend(
                     data_scrapper(generate_soup(link, headers=headers))
@@ -222,6 +230,8 @@ def scrapping_process(
             print(
                 f"{datetime.datetime.today()} - INFO: Finished for {category['name']!r} in {ellapsed} s\n{'='*80}"
             )
+
+            time.sleep(category_sleep)
 
         except AttributeError as e:
             logging.critical(f"Captcha appeared for {category['name']!r}")
@@ -299,11 +309,12 @@ def performance_counter(function: Callable) -> Callable:
 def main(
     obj: list[dict],
     *,
-    start_index: int | None = None,
-    browser_header: dict
-    | None = {
+    start_index: Optional[int] = None,
+    browser_header: Optional[dict] = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43"
     },
+    page_sleep: float = 5,
+    category_sleep: float = 1.5,
 ) -> None:
     """
     Main function that combines helper functions to scrape Infobel
@@ -324,7 +335,14 @@ def main(
     """
     try:
         assert start_index is not None
-        scrapping_process(obj, start_index=start_index, headers=browser_header)
+        scrapping_process(
+            obj,
+            start_index=start_index,
+            headers=browser_header,
+            category_sleep=category_sleep,
+            page_sleep=page_sleep,
+        )
+
         save_to_csv(obj)
 
     except AssertionError as e:
