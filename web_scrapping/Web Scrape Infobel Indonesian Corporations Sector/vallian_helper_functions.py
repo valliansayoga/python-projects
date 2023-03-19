@@ -381,19 +381,13 @@ def progress_saver(
 
     for updt in updates:
         for past_prg in past_progress:
-            if updt["name"] != past_prg["name"] and updt["rerun"]:
+            if updt["name"] == past_prg["name"] and updt.get("rerun"):
                 past_prg.update(updt)
                 continue
             continue
 
     with open(path, "w") as file:
         json.dump(past_progress, file, indent=4)
-
-
-save_unpopular_progress = partial(
-    progress_saver, filepath="unpopular/unpopular_categories.json"
-)
-
 
 @performance_counter
 def main(
