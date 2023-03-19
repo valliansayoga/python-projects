@@ -1,0 +1,898 @@
+[
+    {
+        "index": 0,
+        "name": "administration_government_senate",
+        "first_link": "https://local.infobel.co.id/314/administration_government_senate/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 1,
+        "name": "amusement_parks_and_recreation_centres",
+        "first_link": "https://local.infobel.co.id/581/amusement_parks_and_recreation_centres/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 2,
+        "name": "art_and_portrait_photographs",
+        "first_link": "https://local.infobel.co.id/666/art_and_portrait_photographs/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 3,
+        "name": "art_culture_publishing",
+        "first_link": "https://local.infobel.co.id/625/art_culture_publishing/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 4,
+        "name": "art_culture_publishing_general",
+        "first_link": "https://local.infobel.co.id/624/art_culture_publishing_general/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 5,
+        "name": "associations_political_parties_trade_unions_and_professional_associations",
+        "first_link": "https://local.infobel.co.id/317/associations_political_parties_trade_unions_and_professional_associations/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 6,
+        "name": "associations_various_associations",
+        "first_link": "https://local.infobel.co.id/176/associations_various_associations/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 7,
+        "name": "banks",
+        "first_link": "https://local.infobel.co.id/384/banks/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 8,
+        "name": "banks_finances",
+        "first_link": "https://local.infobel.co.id/383/banks_finances/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 9,
+        "name": "banks_insurance_and_other_services",
+        "first_link": "https://local.infobel.co.id/340/banks_insurance_and_other_services/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 10,
+        "name": "bookshops",
+        "first_link": "https://local.infobel.co.id/653/bookshops/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 11,
+        "name": "building_management_services",
+        "first_link": "https://local.infobel.co.id/286/building_management_services/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 12,
+        "name": "cemeteries",
+        "first_link": "https://local.infobel.co.id/284/cemeteries/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 13,
+        "name": "chemists",
+        "first_link": "https://local.infobel.co.id/165/chemists/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 14,
+        "name": "consumer_credit_establishments",
+        "first_link": "https://local.infobel.co.id/388/consumer_credit_establishments/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 16,
+        "name": "crafts",
+        "first_link": "https://local.infobel.co.id/722/crafts/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 16,
+        "name": "crafts",
+        "first_link": "https://local.infobel.co.id/722/crafts/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 17,
+        "name": "cultural_publications",
+        "first_link": "https://local.infobel.co.id/645/cultural_publications/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 18,
+        "name": "currency_exchange_offices",
+        "first_link": "https://local.infobel.co.id/385/currency_exchange_offices/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 19,
+        "name": "detectives_private_detectives",
+        "first_link": "https://local.infobel.co.id/429/detectives_private_detectives/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 20,
+        "name": "developers_builders",
+        "first_link": "https://local.infobel.co.id/416/developers_builders/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 21,
+        "name": "drugs",
+        "first_link": "https://local.infobel.co.id/171/drugs/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 22,
+        "name": "economy_and_finance_department",
+        "first_link": "https://local.infobel.co.id/273/economy_and_finance_department/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 23,
+        "name": "education",
+        "first_link": "https://local.infobel.co.id/205/education/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 24,
+        "name": "education_commerce_management_computer_science",
+        "first_link": "https://local.infobel.co.id/233/education_commerce_management_computer_science/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 25,
+        "name": "education_languages",
+        "first_link": "https://local.infobel.co.id/224/education_languages/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 26,
+        "name": "education_professional_training_apprenticeship",
+        "first_link": "https://local.infobel.co.id/230/education_professional_training_apprenticeship/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 27,
+        "name": "education_training",
+        "first_link": "https://local.infobel.co.id/204/education_training/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 28,
+        "name": "employment_agencies",
+        "first_link": "https://local.infobel.co.id/455/employment_agencies/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 29,
+        "name": "exercise_halls_and_lessons",
+        "first_link": "https://local.infobel.co.id/513/exercise_halls_and_lessons/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 30,
+        "name": "fashion",
+        "first_link": "https://local.infobel.co.id/675/fashion/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 31,
+        "name": "financial_brokers",
+        "first_link": "https://local.infobel.co.id/399/financial_brokers/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 32,
+        "name": "financial_institutions_miscellaneous",
+        "first_link": "https://local.infobel.co.id/390/financial_institutions_miscellaneous/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 33,
+        "name": "financing_and_credit",
+        "first_link": "https://local.infobel.co.id/393/financing_and_credit/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 34,
+        "name": "fitness_clubs",
+        "first_link": "https://local.infobel.co.id/487/fitness_clubs/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 35,
+        "name": "fitness_equipment_and_accessories",
+        "first_link": "https://local.infobel.co.id/526/fitness_equipment_and_accessories/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 36,
+        "name": "general_insurance_agents",
+        "first_link": "https://local.infobel.co.id/371/general_insurance_agents/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 37,
+        "name": "government_agencies",
+        "first_link": "https://local.infobel.co.id/305/government_agencies/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 38,
+        "name": "government_departments_and_other_services",
+        "first_link": "https://local.infobel.co.id/264/government_departments_and_other_services/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 39,
+        "name": "government_departments_associations",
+        "first_link": "https://local.infobel.co.id/263/government_departments_associations/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 40,
+        "name": "graphic_arts_plastic_arts_equipment_and_supplies_retail",
+        "first_link": "https://local.infobel.co.id/712/graphic_arts_plastic_arts_equipment_and_supplies_retail/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 41,
+        "name": "health_service_sanitary",
+        "first_link": "https://local.infobel.co.id/82/health_service_sanitary/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 42,
+        "name": "health_social_action",
+        "first_link": "https://local.infobel.co.id/1/health_social_action/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 43,
+        "name": "herbalist_retail",
+        "first_link": "https://local.infobel.co.id/149/herbalist_retail/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 44,
+        "name": "hospitals",
+        "first_link": "https://local.infobel.co.id/121/hospitals/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 45,
+        "name": "humanitarian_mutual_aid_social_action_associations",
+        "first_link": "https://local.infobel.co.id/179/humanitarian_mutual_aid_social_action_associations/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 46,
+        "name": "individual_lessons_school_help",
+        "first_link": "https://local.infobel.co.id/209/individual_lessons_school_help/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 47,
+        "name": "insurance",
+        "first_link": "https://local.infobel.co.id/370/insurance/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 48,
+        "name": "insurance_brokers",
+        "first_link": "https://local.infobel.co.id/373/insurance_brokers/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 49,
+        "name": "insurance_companies",
+        "first_link": "https://local.infobel.co.id/379/insurance_companies/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 50,
+        "name": "investment",
+        "first_link": "https://local.infobel.co.id/400/investment/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 51,
+        "name": "judiciary_and_legal_assistance",
+        "first_link": "https://local.infobel.co.id/341/judiciary_and_legal_assistance/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 52,
+        "name": "laboratories_pharmacies_and_medical_supplies",
+        "first_link": "https://local.infobel.co.id/144/laboratories_pharmacies_and_medical_supplies/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 53,
+        "name": "lawyers",
+        "first_link": "https://local.infobel.co.id/342/lawyers/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 54,
+        "name": "lithography",
+        "first_link": "https://local.infobel.co.id/671/lithography/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 55,
+        "name": "medical_biology_analystical_laboratories",
+        "first_link": "https://local.infobel.co.id/150/medical_biology_analystical_laboratories/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 56,
+        "name": "medical_care_establishment_health_services",
+        "first_link": "https://local.infobel.co.id/110/medical_care_establishment_health_services/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 57,
+        "name": "medical_clinics",
+        "first_link": "https://local.infobel.co.id/118/medical_clinics/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 58,
+        "name": "medical_laboratories",
+        "first_link": "https://local.infobel.co.id/151/medical_laboratories/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 59,
+        "name": "medical_paramedical_and_other_professions",
+        "first_link": "https://local.infobel.co.id/83/medical_paramedical_and_other_professions/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 60,
+        "name": "medical_professions",
+        "first_link": "https://local.infobel.co.id/2/medical_professions/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 61,
+        "name": "miscellaneous_experts",
+        "first_link": "https://local.infobel.co.id/376/miscellaneous_experts/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 62,
+        "name": "miscellaneous_services",
+        "first_link": "https://local.infobel.co.id/420/miscellaneous_services/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 63,
+        "name": "music",
+        "first_link": "https://local.infobel.co.id/690/music/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 64,
+        "name": "notaries",
+        "first_link": "https://local.infobel.co.id/363/notaries/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 65,
+        "name": "opticians_retail",
+        "first_link": "https://local.infobel.co.id/90/opticians_retail/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 66,
+        "name": "organisation_of_events_seminars_and_conferences",
+        "first_link": "https://local.infobel.co.id/595/organisation_of_events_seminars_and_conferences/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 67,
+        "name": "physicians_ophthalmology",
+        "first_link": "https://local.infobel.co.id/51/physicians_ophthalmology/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 68,
+        "name": "portfolio_managers",
+        "first_link": "https://local.infobel.co.id/391/portfolio_managers/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 70,
+        "name": "private_higher_education",
+        "first_link": "https://local.infobel.co.id/223/private_higher_education/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 70,
+        "name": "private_higher_education",
+        "first_link": "https://local.infobel.co.id/223/private_higher_education/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 71,
+        "name": "private_kindergartens",
+        "first_link": "https://local.infobel.co.id/220/private_kindergartens/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 72,
+        "name": "private_primary_education",
+        "first_link": "https://local.infobel.co.id/215/private_primary_education/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 73,
+        "name": "private_primary_schools",
+        "first_link": "https://local.infobel.co.id/221/private_primary_schools/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 74,
+        "name": "private_secondary_education",
+        "first_link": "https://local.infobel.co.id/216/private_secondary_education/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 75,
+        "name": "professional_and_private_technical_educational_schools",
+        "first_link": "https://local.infobel.co.id/208/professional_and_private_technical_educational_schools/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 76,
+        "name": "professional_and_public_technical_educational_schools",
+        "first_link": "https://local.infobel.co.id/207/professional_and_public_technical_educational_schools/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 77,
+        "name": "professional_trade_unions_and_orders",
+        "first_link": "https://local.infobel.co.id/322/professional_trade_unions_and_orders/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 78,
+        "name": "property_credit_establishments",
+        "first_link": "https://local.infobel.co.id/389/property_credit_establishments/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 79,
+        "name": "public_higher_education",
+        "first_link": "https://local.infobel.co.id/229/public_higher_education/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 80,
+        "name": "public_kindergartens",
+        "first_link": "https://local.infobel.co.id/226/public_kindergartens/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 81,
+        "name": "public_primary_schools",
+        "first_link": "https://local.infobel.co.id/227/public_primary_schools/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 82,
+        "name": "public_transport_services",
+        "first_link": "https://local.infobel.co.id/300/public_transport_services/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 83,
+        "name": "publishing_of_newspapers_reviews_and_bulletins",
+        "first_link": "https://local.infobel.co.id/644/publishing_of_newspapers_reviews_and_bulletins/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 84,
+        "name": "real_estate",
+        "first_link": "https://local.infobel.co.id/405/real_estate/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 85,
+        "name": "real_estate_agents",
+        "first_link": "https://local.infobel.co.id/408/real_estate_agents/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 86,
+        "name": "real_estate_developers_land_developers",
+        "first_link": "https://local.infobel.co.id/411/real_estate_developers_land_developers/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 87,
+        "name": "recreation_shows",
+        "first_link": "https://local.infobel.co.id/540/recreation_shows/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 88,
+        "name": "recycling_and_treatment_of_miscellaneous_waste_products",
+        "first_link": "https://local.infobel.co.id/443/recycling_and_treatment_of_miscellaneous_waste_products/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 89,
+        "name": "religious_and_philosophical_associations",
+        "first_link": "https://local.infobel.co.id/318/religious_and_philosophical_associations/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 90,
+        "name": "rental_of_apartments",
+        "first_link": "https://local.infobel.co.id/412/rental_of_apartments/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 91,
+        "name": "renting_personal_lease",
+        "first_link": "https://local.infobel.co.id/419/renting_personal_lease/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 92,
+        "name": "sales_and_rentals_of_musical_instruments_and_accessories",
+        "first_link": "https://local.infobel.co.id/700/sales_and_rentals_of_musical_instruments_and_accessories/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 93,
+        "name": "sales_rental_and_repair_of_surgical_medical_instruments_and_equipment",
+        "first_link": "https://local.infobel.co.id/158/sales_rental_and_repair_of_surgical_medical_instruments_and_equipment/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 94,
+        "name": "secondary_education_public_colleges_and_schools",
+        "first_link": "https://local.infobel.co.id/232/secondary_education_public_colleges_and_schools/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 95,
+        "name": "show_entrepreneurs_and_producers",
+        "first_link": "https://local.infobel.co.id/556/show_entrepreneurs_and_producers/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 96,
+        "name": "show_performers",
+        "first_link": "https://local.infobel.co.id/630/show_performers/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 97,
+        "name": "social_action",
+        "first_link": "https://local.infobel.co.id/173/social_action/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 98,
+        "name": "social_assistance",
+        "first_link": "https://local.infobel.co.id/177/social_assistance/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 99,
+        "name": "sport_recreation_shows",
+        "first_link": "https://local.infobel.co.id/482/sport_recreation_shows/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 100,
+        "name": "sports",
+        "first_link": "https://local.infobel.co.id/483/sports/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 101,
+        "name": "sports_and_leisure_articles_and_apparel_retail_and_accessories",
+        "first_link": "https://local.infobel.co.id/516/sports_and_leisure_articles_and_apparel_retail_and_accessories/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 102,
+        "name": "stationery_shops_stationery_and_book_shops_retail",
+        "first_link": "https://local.infobel.co.id/655/stationery_shops_stationery_and_book_shops_retail/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 103,
+        "name": "stock_exchange_organisations_and_companies",
+        "first_link": "https://local.infobel.co.id/392/stock_exchange_organisations_and_companies/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 104,
+        "name": "telecommunications_services",
+        "first_link": "https://local.infobel.co.id/299/telecommunications_services/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 105,
+        "name": "temporary_employment_agencies",
+        "first_link": "https://local.infobel.co.id/422/temporary_employment_agencies/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 106,
+        "name": "therapeutic_oils",
+        "first_link": "https://local.infobel.co.id/172/therapeutic_oils/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 107,
+        "name": "toys_and_games_retail",
+        "first_link": "https://local.infobel.co.id/562/toys_and_games_retail/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 108,
+        "name": "universities",
+        "first_link": "https://local.infobel.co.id/250/universities/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 109,
+        "name": "various_education",
+        "first_link": "https://local.infobel.co.id/206/various_education/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 110,
+        "name": "wealth_management_advisors",
+        "first_link": "https://local.infobel.co.id/428/wealth_management_advisors/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    },
+    {
+        "index": 111,
+        "name": "wood_sculptors_furniture_and_art_objects",
+        "first_link": "https://local.infobel.co.id/658/wood_sculptors_furniture_and_art_objects/index_1.htm",
+        "expected_rows": null,
+        "scrapped_rows": null,
+        "rerun": null
+    }
+]
