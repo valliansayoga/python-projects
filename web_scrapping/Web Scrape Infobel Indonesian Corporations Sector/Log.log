@@ -1,0 +1,47 @@
+2023-03-19T16:07:24+0700 - INFO: Main process started...
+================================================================================
+2023-03-19T16:07:24+0700 - INFO: Started for 'administration_government_senate'
+2023-03-19T16:07:26+0700 - INFO:     Pages: 15 | Expected result: ~300
+2023-03-19T16:07:45+0700 - CRITICAL: Captcha! That's it for today, folks!
+2023-03-19T16:07:45+0700 - INFO: Saving files...
+2023-03-19T16:07:45+0700 - INFO: Finished index [  0] : 'administration_government_senate'
+        Scrapped:  200 rows | Expected 300 | DIfference: 100 (66.7%)
+2023-03-19T16:07:45+0700 - INFO: Main process finished for 21.16 s
+2023-03-19T16:39:38+0700 - INFO: Main process started...
+================================================================================
+2023-03-19T16:39:38+0700 - INFO: Started for 'administration_government_senate'
+2023-03-19T16:39:40+0700 - CRITICAL: Captcha! That's it for today, folks!
+2023-03-19T16:39:40+0700 - INFO: Saving files...
+2023-03-19T16:40:43+0700 - INFO: Main process started...
+================================================================================
+2023-03-19T16:40:43+0700 - INFO: Started for 'administration_government_senate'
+2023-03-19T16:40:46+0700 - CRITICAL: Captcha! That's it for today, folks!
+2023-03-19T16:40:46+0700 - INFO: Saving files...
+2023-03-19T16:43:13+0700 - INFO: Main process started...
+================================================================================
+2023-03-19T16:43:13+0700 - INFO: Started for 'administration_government_senate'
+2023-03-19T16:43:16+0700 - CRITICAL: Captcha! That's it for today, folks!
+2023-03-19T16:43:16+0700 - INFO: Saving files...
+2023-03-19T16:43:16+0700 - INFO: Main process finished for 2.89 s
+================================================================================
+2023-03-19T19:18:55+0700 - INFO: Main process started...
+================================================================================
+2023-03-19T19:18:55+0700 - INFO: Started for 'amusement_parks_and_recreation_centres'
+2023-03-19T19:18:59+0700 - CRITICAL: Captcha! That's it for today, folks!
+2023-03-19T19:18:59+0700 - INFO: Saving files...
+2023-03-19T19:18:59+0700 - INFO: Main process finished for 3.9 s
+================================================================================
+2023-03-19T19:19:52+0700 - INFO: Main process started...
+================================================================================
+2023-03-19T19:19:52+0700 - INFO: Started for 'art_and_portrait_photographs'
+2023-03-19T19:19:55+0700 - CRITICAL: Captcha! That's it for today, folks!
+2023-03-19T19:19:55+0700 - INFO: Saving files...
+2023-03-19T19:19:55+0700 - INFO: Main process finished for 3.24 s
+================================================================================
+2023-03-19T19:20:58+0700 - INFO: Main process started...
+================================================================================
+2023-03-19T19:20:58+0700 - INFO: Started for 'abrasives_and_super_abrasives_manufacture_wholesale'
+2023-03-19T19:21:02+0700 - CRITICAL: Captcha! That's it for today, folks!
+2023-03-19T19:21:02+0700 - INFO: Saving files...
+2023-03-19T19:21:02+0700 - INFO: Main process finished for 3.87 s
+================================================================================
